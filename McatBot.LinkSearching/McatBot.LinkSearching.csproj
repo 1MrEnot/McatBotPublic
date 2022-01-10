@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>9</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\McatBot.Core\McatBot.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MonstercatNet" Version="2.0.15" />
+      <PackageReference Include="RestSharp" Version="106.11.7" />
+      <PackageReference Include="SpotifyAPI.Web" Version="6.1.0" />
+      <PackageReference Include="YandexMusicResolver" Version="4.0.0" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>9</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\McatBot.Core\McatBot.Core.csproj" />
+      <ProjectReference Include="..\McatBot.LinkSearching\McatBot.LinkSearching.csproj" />
+    </ItemGroup>
+
+</Project>

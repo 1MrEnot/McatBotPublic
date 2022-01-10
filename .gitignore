@@ -1,0 +1,8 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/Testing/Testing.csproj
+/TestProject
+/TestProject/TestProject.csproj

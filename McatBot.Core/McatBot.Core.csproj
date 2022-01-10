@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>9</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.11" />
+      <PackageReference Include="VkNet" Version="1.60.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\McatBot.Entities\McatBot.Entities.csproj" />
+    </ItemGroup>
+
+</Project>
